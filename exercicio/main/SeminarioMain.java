@@ -23,16 +23,6 @@ public class TesteSeminario {
         professor1.setSeminario(seminariosEmAberto);
 
         professor1.imprime();
-//        System.out.println("------- Aluno (os) -------");
-//        aluno1.setSeminario(seminario);
-//        aluno1.imprime();
-//        System.out.println("------- Professor (es) -------");
-//        professor1.setSeminario(professor1.getSeminario());
-//        professor1.imprime();
-//        System.out.println("------- Seminario -------");
-//        seminario.getAlunos();
-//        seminario.imprime();
-
 
     }
 }
