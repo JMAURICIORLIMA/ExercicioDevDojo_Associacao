@@ -10,11 +10,6 @@ public class Aluno {
         this.idadeAluno = idadeAluno;
     }
 
-    public void imprime(){
-        System.out.println("Aluno: " + getNomeAluno() +
-                "\nIdade: " + getIdadeAluno());
-    }
-
     public String getNomeAluno() {
         return nomeAluno;
     }
