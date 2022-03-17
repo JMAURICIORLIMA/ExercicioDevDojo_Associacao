@@ -1,7 +1,5 @@
 package academy.devdojo.maratonajava.javacore.Gassociacao.exercicio;
 
-import java.util.Arrays;
-
 public class Professor {
     private String nomeProfessor;
     private String Especialidade[];

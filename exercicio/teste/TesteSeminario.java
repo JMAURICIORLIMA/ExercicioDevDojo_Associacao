@@ -10,7 +10,7 @@ public class TesteSeminario {
         Aluno aluno2 = new Aluno("Daniel", 23);
         Aluno[] alunos = {aluno1, aluno2};
 
-        Seminario seminario = new Seminario("Centro de converções", alunos);
+        Seminario seminario = new Seminario(" ", alunos);
 
         Professor professor1 = new Professor("Marcos", new String[]{"Java", "Spring"});
 

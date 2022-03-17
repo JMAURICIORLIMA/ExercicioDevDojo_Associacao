@@ -1,20 +1,20 @@
 package academy.devdojo.maratonajava.javacore.Gassociacao.exercicio;
 
 public class Seminario {
-    private String endereco;
+    private String titulo;
     private Aluno[] alunos;
 
-    public Seminario(String endereco) {
-        this.endereco = endereco;
+    public Seminario(String titulo) {
+        this.titulo = titulo;
     }
 
-    public Seminario(String endereco, Aluno[] alunos) {
-        this.endereco = endereco;
+    public Seminario(String titulo, Aluno[] alunos) {
+        this.titulo = titulo;
         this.alunos = alunos;
     }
 
     public void imprime() {
-        System.out.println("Endereço: " + this.endereco);
+        System.out.println("Títilo do seminário: " + this.titulo);
         if (alunos == null) {
             System.out.println("Ainda não existe aluno(os). ");
             return;
@@ -31,12 +31,12 @@ public class Seminario {
         }
     }
 
-    public String getEndereco() {
-        return endereco;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public Aluno[] getAlunos() {
