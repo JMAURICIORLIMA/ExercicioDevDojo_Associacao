@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.javacore.Gassociacao.exercicio;
 public class Seminario {
     private String titulo;
     private Aluno[] alunos;
+    private Local local;
 
     public Seminario(String titulo) {
         this.titulo = titulo;
@@ -11,6 +12,12 @@ public class Seminario {
     public Seminario(String titulo, Aluno[] alunos) {
         this.titulo = titulo;
         this.alunos = alunos;
+    }
+
+    public Seminario(String titulo, Aluno[] alunos, Local local) {
+        this.titulo = titulo;
+        this.alunos = alunos;
+        this.local = local;
     }
 
     public void imprime() {
@@ -45,5 +52,13 @@ public class Seminario {
 
     public void setAlunos(Aluno[] alunos) {
         this.alunos = alunos;
+    }
+
+    public Local getLocal() {
+        return local;
+    }
+
+    public void setLocal(Local local) {
+        this.local = local;
     }
 }
