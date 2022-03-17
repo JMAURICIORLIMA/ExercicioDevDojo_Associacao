@@ -1,11 +1,11 @@
-package academy.devdojo.maratonajava.javacore.Gassociacao.exercicio.teste;
+package academy.devdojo.maratonajava.javacore.Gassociacao.exercicio.main;
 
 import academy.devdojo.maratonajava.javacore.Gassociacao.exercicio.Aluno;
 import academy.devdojo.maratonajava.javacore.Gassociacao.exercicio.Local;
 import academy.devdojo.maratonajava.javacore.Gassociacao.exercicio.Professor;
 import academy.devdojo.maratonajava.javacore.Gassociacao.exercicio.Seminario;
 
-public class TesteSeminario {
+public class SeminarioMain {
     public static void main(String[] args) {
 
         Local local = new Local("Av. Brasil");

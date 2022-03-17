@@ -26,7 +26,7 @@ public class Professor {
         for (Seminario arrSeminario : this.seminario) {
             System.out.println("Títilo: " + arrSeminario.getTitulo());
             System.out.println("Endereço: " + arrSeminario.getLocal().getEndereco());
-            if (arrSeminario.getAlunos() == null) continue;
+            if (arrSeminario.getAlunos() == null || arrSeminario.getAlunos().length == 0) continue;
             System.out.println("*** Aluno(os) ***");
             for (Aluno alunos : arrSeminario.getAlunos()) {
                 System.out.println("Aluno(os): " + alunos.getNomeAluno() + " - idade: " + alunos.getIdadeAluno());
